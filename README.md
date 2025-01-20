@@ -1,5 +1,5 @@
 [+] Correspond a un ajout
-[-} Correspond a une suppression
+[-] Correspond a une suppression
 [~] Correspond a une modification
 
 Par : MAKRAN Rayhane
