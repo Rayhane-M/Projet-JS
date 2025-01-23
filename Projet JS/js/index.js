@@ -1,6 +1,6 @@
 const apiKey = '5d3cb5c5';
 const moviesContainer = document.getElementById('movies');
-const loadMoreButton = document.getElementById('load-more');
+const loadMoreButton = document.getElementById('load');
 let currentPage = 1;
 
 async function fetchMovies(page = 1) {

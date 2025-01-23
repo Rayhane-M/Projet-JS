@@ -16,7 +16,7 @@ function displayMovieDetails(movie) {
         <p><strong>Genre :</strong> ${movie.Genre}</p>
         <p><strong>Acteurs :</strong> ${movie.Actors}</p>
         <p><strong>Notes :</strong> ${movie.Ratings.map(r => `${r.Source}: ${r.Value}`).join(', ')}</p>
-        <p><strong>Date de sortie DVD :</strong> ${new Date(movie.DVD).toLocaleDateString('fr-FR')}</p>
+        <p><strong>Date de sortie DVD :</strong> ${isNaN(new Date(movie.DVD)) ? 'Nous ne parvenons pas a trouver la date.' : new Date(movie.DVD).toLocaleDateString('fr-FR')}</p>
     `;
 }
 

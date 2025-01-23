@@ -1,7 +1,7 @@
 const apiKey = '5d3cb5c5';
 const searchBar = document.getElementById('search-bar');
 const searchResults = document.getElementById('search-results');
-const loadMoreButton = document.getElementById('load-more-search');
+const loadMoreButton = document.getElementById('load-search');
 let currentPage = 1;
 let currentQuery = '';
 
